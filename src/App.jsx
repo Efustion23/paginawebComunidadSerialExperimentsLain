@@ -5,7 +5,17 @@ const episodes = [
   { title: 'E01: Weird', description: 'Lain recibe un misterioso email de una compañera que se suicidó.', img: '/public/lain-ep1.jpg' },
   { title: 'E02: Girls', description: 'Lain explora el Wired y presencia fenómenos extraños.', img: '/public/lain-ep2.jpg' },
   { title: 'E03: Psyche', description: 'Lain recibe un chip especial y su percepción de la realidad cambia.', img: '/public/lain-ep3.jpg' },
-  // ...puedes agregar más episodios aquí...
+  { title: 'E04: Religion', description: 'Lain se encuentra con los Caballeros de Lambda Mu y su visión del Wired se expande.', img: '/public/lain-ep4.jpg' },
+  { title: 'E05: Distortion', description: 'La realidad y el Wired se entrelazan, y Lain comienza a cuestionar su propia existencia.', img: '/public/lain-ep5.jpg' },
+  { title: 'E06: Kids', description: 'Lain interactúa con un grupo de niños que juegan en el Wired, explorando la inocencia y la curiosidad.', img: '/public/lain-ep6.jpg' },
+  { title: 'E07: Society', description: 'Lain se enfrenta a la complejidad de las relaciones sociales en el Wired y su impacto en la identidad.', img: '/public/lain-ep7.jpg' },
+  { title: 'E08: Rumors', description: 'Los rumores en el Wired comienzan a afectar la percepción de la realidad de Lain.', img: '/public/lain-ep8.jpg' },
+  { title: 'E09: Protocol', description: 'Lain descubre más sobre los protocolos que rigen el Wired y su relación con la realidad.', img: '/public/lain-ep9.jpg' },
+  { title: 'E10: Love', description: 'Lain explora el concepto del amor en el     Wired y cómo afecta a las relaciones humanas.', img: '/public/lain-ep10.jpg' },
+  { title: 'E11: Infornography', description: 'Lain se adentra en el mundo de la información y la manipulación digital.', img: '/public/lain-ep11.jpg' },
+  { title: 'E12: Landscape', description: 'La percepción de Lain sobre el Wired y la realidad se transforma, llevando a una nueva comprensión de su existencia.', img: '/public/lain-ep12.jpg' },
+  { title: 'E13: Ego', description: 'Lain enfrenta su propia identidad y el concepto de ego, culminando en una decisión que redefine su existencia.', img: '/public/lain-ep13.jpg' },
+  // Puedes agregar más episodios aquí si lo deseas
 ];
 
 function App() {
@@ -24,7 +34,7 @@ function App() {
       </header>
       <section className="hero-section">
         <div className="hero-img-glitch">
-          <img src="/public/lain-hero.jpg" alt="Lain Iwakura con fondo glitch cyberpunk" />
+          <img src="/public/lain-hero.jpeg" alt="Lain Iwakura con fondo glitch cyberpunk" />
           <div className="glitch-overlay"></div>
         </div>
         <div className="hero-text">
